@@ -20,7 +20,7 @@
     },
     "getAsset": {
       "httpMethod": "GET",
-      "uri": "{href}",
+      "uri": "{+href}",
       "summary": "Gets an asset.",
       "responseModel": "Fotoweb\\Representation\\Asset",
       "parameters": {
@@ -39,7 +39,7 @@
     },
     "updateMetadata": {
       "httpMethod": "PATCH",
-      "uri": "{href}",
+      "uri": "{+href}",
       "summary": "Updates the metadata of an asset.",
       "responseModel": "Fotoweb\\Representation\\Asset",
       "parameters": {
@@ -99,7 +99,7 @@
     },
     "getAssetList": {
       "httpMethod": "GET",
-      "uri": "{href}",
+      "uri": "{+href}",
       "summary": "Gets an asset list.",
       "responseModel": "Fotoweb\\Representation\\AssetList",
       "parameters": {
@@ -118,7 +118,7 @@
     },
     "getArchive": {
       "httpMethod": "GET",
-      "uri": "{href}",
+      "uri": "{+href}",
       "summary": "Gets an archive.",
       "responseModel": "Fotoweb\\Representation\\Archive",
       "parameters": {
@@ -137,7 +137,7 @@
     },
     "getArchives": {
       "httpMethod": "GET",
-      "uri": "{href}",
+      "uri": "{+href}",
       "summary": "Gets a list of archives.",
       "responseModel": "Fotoweb\\Representation\\ArchiveList",
       "parameters": {
